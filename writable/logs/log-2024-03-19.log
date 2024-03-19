@@ -1,0 +1,10 @@
+CRITICAL - 2024-03-19 12:08:14 --> Invalid file: "list_books.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_books.php')
+ 2 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('list_books', [], true)
+ 3 APPPATH\Controllers\Books.php(46): view('list_books', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Books->listBooks()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter4-4.3.8\\public\\index.php')
